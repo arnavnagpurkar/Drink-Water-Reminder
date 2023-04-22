@@ -1,8 +1,13 @@
 # Works only on windows
 
+# Installing win10toast on your or some person's computer
+import os
+os.system("pip install win10toast") # Uncomment these three lines if win10toast module is not installed, if installed comment it out
+
 from win10toast import ToastNotifier
 import datetime
 import time
+
 
 # Create a toast notifier object
 toaster = ToastNotifier()
