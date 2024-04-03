@@ -23,6 +23,7 @@ while True:
     # Displaying the notification
     notification.title = f"Drink Water {name}!!"
     notification.message = f"Drink Water it's {timeNow} you drank water {notificationTime} mins ago !!"
+    notification.icon = "water-drop.png"
     notification.send()
 
     # Waiting for the given time and again displaying notification
